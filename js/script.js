@@ -68,14 +68,14 @@ const dots = document.querySelectorAll(".dot");
 
 // Product images array (replace with actual image paths from Figma)
 const productImages = [
-  "./assets/img/Slider_1.png",
-  "./assets/product-main-1.svg",
-  "./assets/product-main-2.svg",
-  "./assets/product-main-3.svg",
-  "./assets/product-main-4.svg",
-  "./assets/product-main-1.svg",
-  "./assets/product-main-2.svg",
-  "./assets/product-main-3.svg",
+  "/assets/img/Slider_1.png",
+  "/assets/product-main-1.svg",
+  "/assets/product-main-2.svg",
+  "/assets/product-main-3.svg",
+  "/assets/product-main-4.svg",
+  "/assets/product-main-1.svg",
+  "/assets/product-main-2.svg",
+  "/assets/product-main-3.svg",
 ];
 
 let currentImageIndex = 0;
@@ -454,3 +454,4 @@ function updateSubscriptionCartLink() {
     addToCartBtn.href = link;
   }
 }
+
